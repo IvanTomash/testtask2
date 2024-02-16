@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BlobStorageUpload.Frontend.props" />
+</Project>

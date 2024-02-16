@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobStorageUpload", "BlobStorageUpload\BlobStorageUpload.csproj", "{15C26490-AA53-48C2-91A9-C164EEE1208E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobStorageUpload.Frontend", "BlobStorageUpload.Frontend\BlobStorageUpload.Frontend.csproj", "{96D0C6A0-58A8-4AAB-AAB0-B954F28AD64D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendEmailBlobTrigger", "SendEmailBlobTrigger\SendEmailBlobTrigger.csproj", "{0BD6B642-E4C4-44C7-932F-3B5C1B439A9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15C26490-AA53-48C2-91A9-C164EEE1208E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C26490-AA53-48C2-91A9-C164EEE1208E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C26490-AA53-48C2-91A9-C164EEE1208E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C26490-AA53-48C2-91A9-C164EEE1208E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D0C6A0-58A8-4AAB-AAB0-B954F28AD64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D0C6A0-58A8-4AAB-AAB0-B954F28AD64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D0C6A0-58A8-4AAB-AAB0-B954F28AD64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D0C6A0-58A8-4AAB-AAB0-B954F28AD64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD6B642-E4C4-44C7-932F-3B5C1B439A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD6B642-E4C4-44C7-932F-3B5C1B439A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD6B642-E4C4-44C7-932F-3B5C1B439A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD6B642-E4C4-44C7-932F-3B5C1B439A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {697A20DA-87D8-4588-B8F7-D00EAE65CF73}
+	EndGlobalSection
+EndGlobal

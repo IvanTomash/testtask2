@@ -1,0 +1,51 @@
+﻿@using System.ComponentModel.DataAnnotations
+@page "/"
+<PageTitle>Home</PageTitle>
+
+<EditForm Model="Model" OnValidSubmit="SubmitForm">
+    <DataAnnotationsValidator/>
+    <div class="mb-3">
+        <label for="EmailAddress" class="form-label">Email Address:</label>
+        <InputText id="EmailAddress" @bind-Value="Model.Email" class="form-control" />
+        <ValidationMessage For="@(()=> Model.Email)" />
+    </div>
+    <div class="mb-3">
+        <InputFile OnChange="@LoadFile" @bind-Value=Model.File class="form-control" accept=".docx"/>
+        <ValidationMessage For="@(()=> Model.File)" />
+    </div>
+    <div class="mb-3">
+        <button class="btn btn-primary" type="submit">Upload</button>
+    </div>
+</EditForm>
+
+
+@code {
+    // Create blazor in web API and don't use HttpClient for passing data. Just create a model and use it to carry data.
+    public class UploadModel
+    {
+        [Required(ErrorMessage = "Email address is required")]
+        [EmailAddress(ErrorMessage = "Invalid email address")]
+        public string Email { get; set; }
+
+        [Required(ErrorMessage = "File is required")]
+        public IBrowserFile File { get; set; }
+    }
+
+    private UploadModel Model = new();
+    private void LoadFile(InputFileChangeEventArgs e)
+    {
+        Model.File = e.File;
+    }
+
+    private async Task SubmitForm()
+    {
+        var content = new MultipartFormDataContent();
+
+        content.Add(new StringContent(Model.Email), "email");
+
+        var fileContent = new StreamContent(Model.File.OpenReadStream(Model.File.Size));
+        content.Add(fileContent, "file", Model.File.Name);
+
+        var response = await new HttpClient().PostAsync("https://localhost:7041/files/upload", content);
+    }
+}

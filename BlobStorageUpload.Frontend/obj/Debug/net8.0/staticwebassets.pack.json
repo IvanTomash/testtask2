@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\my projects\\BlobStorageUpload\\BlobStorageUpload.Frontend\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\my projects\\BlobStorageUpload\\BlobStorageUpload.Frontend\\obj\\Debug\\net8.0\\compressed\\j2kwvyjac7.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\my projects\\BlobStorageUpload\\BlobStorageUpload.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlobStorageUpload.Frontend.styles.css",
+      "PackagePath": "staticwebassets\\BlobStorageUpload.Frontend.styles.css"
+    },
+    {
+      "Id": "D:\\my projects\\BlobStorageUpload\\BlobStorageUpload.Frontend\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\my projects\\BlobStorageUpload\\BlobStorageUpload.Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\my projects\\BlobStorageUpload\\BlobStorageUpload.Frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\my projects\\BlobStorageUpload\\BlobStorageUpload.Frontend\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\my projects\\BlobStorageUpload\\BlobStorageUpload.Frontend\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\my projects\\BlobStorageUpload\\BlobStorageUpload.Frontend\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\my projects\\BlobStorageUpload\\BlobStorageUpload.Frontend\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlobStorageUpload.Frontend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlobStorageUpload.Frontend.props",
+      "PackagePath": "build\\BlobStorageUpload.Frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlobStorageUpload.Frontend.props",
+      "PackagePath": "buildMultiTargeting\\BlobStorageUpload.Frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlobStorageUpload.Frontend.props",
+      "PackagePath": "buildTransitive\\BlobStorageUpload.Frontend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
